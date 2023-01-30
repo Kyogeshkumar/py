@@ -1,0 +1,18 @@
+def sumsquare(l):
+    odd=[]
+    even=[]
+    l3=[]
+    for i in range(0,len(l)):
+        if l[i]%2==0:
+            even.append(l[i])
+        else:
+            odd.append(l[i])
+        oddsquare=sum([x**2 for x in odd])
+        l3.append(oddsquare)
+        evensquare=sum([x**2 for x in even])
+        l3.append(evensquare)
+    return l3
+
+l=[7,18,9,1,12,13,4,30]
+print("sum square is=",sumsquare(l))
+
