@@ -1,0 +1,21 @@
+str1=input("Enter the string:")
+vow='AaEeIiOoUu'
+v=0
+c=0
+vowels=[]
+cons=[]
+for i in range(len(str1)):
+    if str1[i] in vow:
+        v+=1
+        vowels.append(str1[i])
+    elif(str1[i]==" ") and (str1[i] not in vow):
+        cons.append(str1[i])
+    else:
+        c+=1
+        cons.append(str1[i])
+
+print(v)
+print(c)
+print(vow)
+print(cons)
+
