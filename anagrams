@@ -1,0 +1,12 @@
+string1= input("Enter the string1:")
+string2= input("Enter the string2:")
+str1=sorted (string1)
+str2=sorted(string2)
+print(str1)
+print(str2)
+if str1==str2:
+    print("It is a Anagrams")
+
+else:
+    print("It is not Anagrams")
+
