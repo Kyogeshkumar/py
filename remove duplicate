@@ -1,0 +1,4 @@
+l1=[16,18,27,16,23,21,19]
+l2=list(set(l1))
+l2.reverse()
+print(l2)
