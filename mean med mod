@@ -1,0 +1,8 @@
+l1=[16, 18, 27, 16, 23, 21, 19]
+import statistics
+Mean=statistics.mean(l1)
+Median=statistics.median(l1)
+Mode=statistics.mode(l1)
+print("Mean:",Mean)
+print("Median:",Median)
+print("Mode:",Mode)
