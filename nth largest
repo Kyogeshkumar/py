@@ -1,0 +1,8 @@
+list1=[14,67,48,23,5,62]
+list2=list(set(list1))
+list2.sort()
+N=int(input("Enter thr Nth number:"))
+if(N>=len(list2)):
+    print("invalid")
+else:
+    print(N,"th largest element is:",list2[-N])
