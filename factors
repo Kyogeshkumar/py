@@ -1,0 +1,9 @@
+num=int(input("enter:"))
+factors=[]
+for i in range(1,num):
+    if num%i==0:
+        factors.append(i)
+print("the factors of",num,"are=",factors)
+N=int(input())
+for k in range(0,N):
+    print(factors[k],end="")
