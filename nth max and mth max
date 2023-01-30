@@ -1,0 +1,12 @@
+arr=[14,16,36,25,89,34]
+list1=list(set(arr))
+list1.sort()
+M=int(input("Enter the Nth Max Number:"))
+N=int(input("Enter the Nth Min number:"))
+x=list1[-M]
+y=list1[N-1]
+print(M,"th largest number:", x)
+print(N,"th smallest number:", y)
+print("Sum = ",x+y)
+print("Diff = ",x-y)
+print("Prod = ", x*y)
